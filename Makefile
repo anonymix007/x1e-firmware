@@ -1,4 +1,4 @@
-DEST?=/usr/lib/firmware/
+DEST?=/usr/lib
 
 PWD:=$(strip $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST)))))
 
